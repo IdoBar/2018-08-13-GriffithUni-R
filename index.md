@@ -178,6 +178,67 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <hr/>
+<h2><a name="links">Links for classes</a></h2>
+
+<p>
+  Below are all the links to the lessons and the data used in them
+</p>
+<p>
+<p><h3>First lesson: The Unix Shell (Bash)</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/data-shell.zip">http://swcarpentry.github.io/shell-novice/data/data-shell.zip</a></p>
+<p></p>
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+<p></p>
+<p>Linux:</p>
+<p>wget http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+<br/>
+<br/>
+<h3>Second Lesson: R </h3>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-gapminder/">http://swcarpentry.github.io/r-novice-gapminder/</a></p>
+<p>Data to download: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv">https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</a></p>
+<p>We are going to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
+ <br/> 
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</p>
+<p></p>
+<p>Linux:</p>
+<p>wget https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</p>
+<br/>
+<br/>
+  <p>
+<p><h3>Third lesson: Git</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/git-novice/">http://swcarpentry.github.io/git-novice/</a></p>
+<p>
+
+    You will need an account at <a href="https://github.com/">github.com</a>
+    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
+    you to create a GitHub account if you don't have one already.
+    Please consider what personal information you'd like to reveal. For
+    example, you may want to review these
+    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
+    for keeping your email address private</a> provided at GitHub.
+</p> 
+ </p>
+  <br/>
+
+
+<hr/>
+
 
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
