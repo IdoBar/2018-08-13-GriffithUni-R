@@ -36,15 +36,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   are not using Eventbrite, or leave it in, since it will not be
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite %}
+
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://docs.google.com/forms/d/e/1FAIpQLSd5NTcawmgTJWOkqdPisB8lfZOE9iySHlOXICmNyz8OKdR1Aw/viewform?usp=sf_link"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="500px"
   scrolling="auto">
 </iframe>
-{% endif %}
+
 
 <h2 id="general">General Information</h2>
 
