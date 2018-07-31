@@ -373,12 +373,20 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
+            {% comment %} Git 2.18.0 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Select Components {% endcomment %}
             <li>Click on "Next".</li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
+	    {% comment %} Choosing default editor {% endcomment %}
+            <li>
+              <strong>
+                Keep "Use the Nano editor by default" selected and click on "Next".
+              </strong>
+                If you forgot to do this (or choose other editor), nano will not work properly.
+                If this happens rerun the installer and select the appropriate option.
+            </li>
+            {% comment %} Selecting default editor {% endcomment %}
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
@@ -400,13 +408,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 Keep "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring experimental performance tweaks {% endcomment %}
-            <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
+            <li>Click on "Install".</li>
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
           </ol>
         </li>
+	{% comment %} Adjusting your PATH environment {% endcomment %}
         <li>
           If your "HOME" environment variable is not set (or you don't know what this is):
           <ol>
@@ -473,7 +481,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
       <p>
-        Git should be installed on your computer as part of your Bash
+        Git should be installed on your computer as part of your Git for Windows
         install (described above).
       </p>
     </div>
@@ -522,19 +530,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer
-	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
+        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        for an example on how to open nano.
+        It should now be available as part of your Git for Windows install (see above).
       </p>
       <p>
         Others editors that you can use are
