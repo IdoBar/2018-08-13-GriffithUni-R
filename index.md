@@ -386,6 +386,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
+		  <li>
+              <strong>
+                Keep "Use Nano as default editor" selected and click on "Next".
+              </strong>
+                If you forgot to do this  nano may not work properly.
+                If this happens rerun the installer and select the appropriate option.
+            </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
@@ -520,23 +527,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Library Carpentry
-          {% endif %}
-          Windows installer
-	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
-      </p>
-      <p>
+          <p>
+        Nano should be installed on your computer as part of your Bash
+        install (described above).
+      </p>      <p>
         Others editors that you can use are
         <a href="https://notepad-plus-plus.org/">Notepad++</a> or
         <a href="https://www.sublimetext.com/">Sublime Text</a>.
